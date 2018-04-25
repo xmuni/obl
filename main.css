@@ -41,6 +41,8 @@ a:active
 	position: relative;
 	border-bottom: 3px solid rgba(0,100,0,0.3);
 	box-sizing: border-box;
+
+	z-index: 0;
 }
 
 #headerbg
@@ -52,19 +54,22 @@ a:active
 	bottom: 0;
 
 	background: url("img/header.jpg");
-	/*background-size: 100%;*/
 	background-size: cover;
 	opacity: 0.3;
 	background-repeat: no-repeat;
+	z-index: -1;
 }
 
 #title
 {
+	max-width: 840px;
 	color: black;
 	text-align: center;
 	margin: auto;
 	min-height: 140px;
 	padding: 10px 10px;
+	/*position: relative;*/
+	z-index: 2;
 }
 
 #title h1

@@ -1,0 +1,25 @@
+{
+	"details":
+	[
+		{
+			"id": "au01",
+			"content": "albero 1 descrizione"
+		},
+		{
+			"id": "au02",
+			"content": "albero 2 descrizione"
+		},
+		{
+			"id": "au03",
+			"content": "albero 3 descrizione"
+		},
+		{
+			"id": "au04",
+			"content": "albero 4 descrizione"
+		},
+		{
+			"id": "au05",
+			"content": "albero 5 descrizione"
+		}
+	]
+}

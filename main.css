@@ -149,26 +149,29 @@ a
 
 #grid
 {
-	display: grid;
-	grid-template-columns: 300px minmax(600px, 2000px);
-	margin: 3vw 10vw;
+	display: flex;
+	/*grid-template-columns: 300px minmax(600px, 2000px);*/
+	margin: 3vw auto;
+	width: 80%;
 }
 
 #sidebar
 {
+	width: 300px;
 	display: flex;
 	flex-flow: column;
 	align-items: flex-end;
+	margin-right: 50px;
 }
 
 #sidebar .button
 {
-	color: var(--green);
+	/*color: var(--green);*/
 	padding: 10px;
 	font-size: 1.3rem;
-	margin: 5px 0;
-	margin-right: 3vw;
-	width: 230px;
+	width: 220px;
+	/*margin: 0;*/
+	/*margin-right: 3vw;*/
 	text-align: right;
 }
 
@@ -191,6 +194,10 @@ a
 
 
 
+#gallery
+{
+	max-width: 2000px;
+}
 
 #gallery h2
 {
@@ -211,7 +218,7 @@ a
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 50px;
-	margin-left: -20px;
+	/*margin-left: -20px;*/
 
 	/*padding: 0 30px;*/
 	/*width: 95%;*/
@@ -253,11 +260,20 @@ a
 	margin: 5px auto;
 }
 
+.flexbox .dummy
+{
+	display: none;
+}
+
+
+
+
 
 .previewpanel
 {
 	position: relative;
 	display: grid;
+	display: none;
 	grid-template-columns: 450px 1fr;
 
 	background: #333;

@@ -281,6 +281,8 @@ a
 	height: 400px;
 	color: var(--light);
 	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .previewpanel img

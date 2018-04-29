@@ -2,24 +2,164 @@
 	"details":
 	[
 		{
-			"id": "au01",
-			"content": "albero 1 descrizione"
+			"id": "ft01",
+			"image": "img/ft01.jpg",
+			"name": "Acetosa",
+			"name2": "Rumex acetosa (L.)",
+			"par": "Foglie sagittate; decotto di pianta intera come depurativo. Foglie in insalata.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3914"
 		},
 		{
-			"id": "au02",
-			"content": "albero 2 descrizione"
+			"id": "ft02",
+			"image": "img/ft02.jpg",
+			"name": "Achillea",
+			"name2": "Achillea millefolium (L.)",
+			"par": "Fusto foglioso con foglie alterne; infuso di sommità fiorite per i disturbi della menopausa. Foglioline e petali fiori in insalata.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=50297"
 		},
 		{
-			"id": "au03",
-			"content": "albero 3 descrizione"
+			"id": "ft03",
+			"image": "img/ft03.jpg",
+			"name": "Agrifoglio",
+			"name2": "Ilex aquifolium (L.)",
+			"par": "foglie persistenti, ovate; decotto di foglie come antireumatico. Infuso di foglie ottimo tè energetico. Frutti rossi tossici.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=2246"
 		},
 		{
-			"id": "au04",
-			"content": "albero 4 descrizione"
+			"id": "ft04",
+			"image": "img/ft04.jpg",
+			"name": "Alloro",
+			"name2": "Laurus nobilis (L.)",
+			"par": "foglie persistenti, alterne; infuso di foglie per dispepsie atoniche. Foglie in piatti di pesce e antitarmico. ",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3443"
 		},
 		{
-			"id": "au05",
-			"content": "albero 5 descrizione"
+			"id": "ft05",
+			"image": "img/ft05.jpg",
+			"name": "Angelica",
+			"name2": "Angelica archangelica (L.)",
+			"par": "foglie 2-3 volte pennate; infuso di radice per stimolare la digestione. Foglie giovani in frutta cotta, pesce e con formaggi.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=8998"
+		},
+		{
+			"id": "ft06",
+			"image": "img/ft06.jpg",
+			"name": "Artemisia",
+			"name2": "Artemisia vulgaris (L.)",
+			"par": "folgie alterne; infuso di sommità fiorite come antispasmodico. Giovani foglie in infuso come tè e per aromatizzare la birra.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=38475"
+		},
+		{
+			"id": "ft07",
+			"image": "img/ft07.jpg",
+			"name": "Bardana",
+			"name2": "Arctium lappa (L.)",
+			"par": "foglie alterne ovali; decotto di radice per la cura del diabete. Gambi delle foglie cotti come il Cardo.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=15614"
+		},
+		{
+			"id": "ft08",
+			"image": "img/ft08.jpg",
+			"name": "Biancospino",
+			"name2": "Crataegus monogyna (Jacq.)",
+			"par": "foglie alterne; infuso di fiori per calmare il nervosismo. Fiori in insalata e per tè profumato.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=10885"
+		},
+		{
+			"id": "ft09",
+			"image": "img/ft09.jpg",
+			"name": "Borragine",
+			"name2": "Borrago officinalis  (L.)",
+			"par": "folglie alterne pelose; infuso di fiori per sedare la tosse. Foglie cotte per molte ricette e fiori in insalata.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=5798"
+		},
+		{
+			"id": "ft10",
+			"image": "img/ft10.jpg",
+			"name": "Calendula",
+			"name2": "Calendula officinalis (L.)",
+			"par": "foglie basali a rosetta; infuso di fiori per favorire le regole mensili. Per pomate dermatologiche. Petali fiori arancioni in insalata e nel riso.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=48264"
+		},
+		{
+			"id": "ft11",
+			"image": "img/ft11.jpg",
+			"name": "Camomilla",
+			"name2": "Matricaria chamomilla (L.)",
+			"par": "foglie pennate; tintura di capolini fioriti per difficoltà digestive. Infuso come blando calmante.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=9456"
+		},
+		{
+			"id": "ft12",
+			"image": "img/ft12.jpg",
+			"name": "Celidonia",
+			"name2": "Chelidonium majus (L.)",
+			"par": "foglie pennatosette; succo giallo allo stato naturale per calli e verruche. Tossico se ingerito.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3714"
+		},
+		{
+			"id": "ft13",
+			"image": "img/ft13.jpg",
+			"name": "Cicoria selvatica",
+			"name2": "Cichorium intybus (L.)",
+			"par": "foglie superiori lanceolate; decotto di radice come epatoprotettivo. Foglie giovani cotte e fiori azzurri in insalata.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=7098"
+		},
+		{
+			"id": "ft14",
+			"image": "img/ft14.jpg",
+			"name": "Edera terrestre",
+			"name2": "Glechoma ederacea (L.)",
+			"par": "foglie lungamente picciolate; infuso di sommità fiorite come bechico. Petali fiori blu in insalata",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=5732"
+		},
+		{
+			"id": "ft15",
+			"image": "img/ft15.jpg",
+			"name": "Equiseto",
+			"name2": "Equisetum arvense (L.)",
+			"par": "fusti fertili di diametro max 5 mm; decotto di pianta intera come mineralizzante",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=15124"
+		},
+		{
+			"id": "ft16",
+			"image": "img/ft16.jpg",
+			"name": "Erba limoncina",
+			"name2": "Lippia citriodora (Humb.)",
+			"par": "foglie intere lanceolate; infuso di foglie e fiori come stomachico. Foglie  e fiori per grappa digestiva.",
+			"link": "https://it.wikipedia.org/wiki/Aloysia_citriodora"
+		},
+		{
+			"id": "ft17",
+			"image": "img/ft17.jpg",
+			"name": "Farfara",
+			"name2": "Tussilago farfara (L.)",
+			"par": "foglie cordato-poligonali; infuso di fiori per tracheite. Foglie usabili per paste fresche.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=675"
+		},
+		{
+			"id": "ft18",
+			"image": "img/ft18.jpg",
+			"name": "Felce maschio",
+			"name2": "Dryopteris filix-mas (L.)",
+			"par": "foglie suoeriormente pennate; polvere di rizoma come antielmintico. Foglie amarognole per il tè e il risotto. ",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=20543"
+		},
+		{
+			"id": "ft19",
+			"image": "img/ft19.jpg",
+			"name": "Fragola di bosco",
+			"name2": "Fragaria vesca (L.)",
+			"par": "foglie composte da tre foglioline; frutti con un po' di limone negli attacchi di gotta. Giovani foglie in insalata.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=2625"
+		},
+		{
+			"id": "ft20",
+			"image": "img/ft20.jpg",
+			"name": "Gramigna",
+			"name2": "Cynodon dactylon (L.)",
+			"par": "foglie a lembo lineare-lanceolato; decotto di rizoma come diuretico e depurativo. Togliere involucro esterno amaro del rizoma.",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=15055"
 		}
 	]
 }

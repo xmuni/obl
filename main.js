@@ -8,6 +8,8 @@ infobox.style.display = "grid";
 
 infobox.innerHTML = "asdf";
 
+var infobox_lastopened_id = "none";
+
 
 
 
@@ -51,13 +53,21 @@ for(var i=0; i<flexbox.length; i++)
 
 function reveal(box, flexbox)
 {
+	if(infobox.style.display=="grid" && infobox_lastopened_id==box.id)
+	{
+		infobox.style.display = "none"; // hide infobox
+		return;
+	}
+	else
+		infobox.style.display = "grid"; // show infobox
+
 	// update infobox content with the description of this plant from "details.json"
 	var description = get_details_by_id(box.id);
 	infobox.innerHTML = description;
 
 	var index = get_box_index(flexbox, box.id);
-	console.log("Found index");
-	console.log(index);
+	// console.log("Found index");
+	// console.log(index);
 
 	if(index<0)
 		return;
@@ -66,10 +76,10 @@ function reveal(box, flexbox)
 	var columns = count_columns();
 	var last_box_in_row = Math.ceil( (index+1)/columns ) * columns;
 
-	console.log("boxcount:");
-	console.log(boxcount);
-	console.log("last_box_in_row:");
-	console.log(last_box_in_row);
+	// console.log("boxcount:");
+	// console.log(boxcount);
+	// console.log("last_box_in_row:");
+	// console.log(last_box_in_row);
 
 	if(last_box_in_row > boxcount)
 		last_box_in_row = boxcount-1;
@@ -79,6 +89,7 @@ function reveal(box, flexbox)
 	// this.parentNode.insertBefore(infobox, this);
 	add_infobox_at(last_box_in_row);
 
+	infobox_lastopened_id = box.id;
 }
 
 function get_box_index(flexbox, id)
@@ -108,8 +119,8 @@ function count_columns()
 function add_infobox_at(index)
 {
 	boxes[0].parentNode.insertBefore(infobox, boxes[index]);
-	console.log("infobox added");
-	console.log(index);
+	// console.log("infobox added");
+	// console.log(index);
 }
 
 
@@ -140,6 +151,38 @@ function get_details()
 
 
 
+// converts an object from details_array into HTML
+function detail_object_to_innerhtml(detail_object)
+{
+	var imgurl	= detail_object.image;
+	var name	= detail_object.name;
+	var name2	= detail_object.name2;
+	var par		= detail_object.par;
+	var linkurl	= detail_object.link;
+
+	var html_text = "<img src='"+imgurl+"'/>";
+	html_text += "<div class='plantinfo'>";
+	html_text += 	"<h2>"+name+"</h2>";
+	html_text += 	"<h4>"+name2+"</h4>";
+	html_text += 	"<p>"+par+"</p>";
+	html_text += 	"<p><a href='"+linkurl+"'>Visualizza questa pianta su actaplantarum.org</a></p>";
+	html_text += "</div>";
+
+			// <img src="img/ligustro.jpg"/>
+			// <h2>Acetosa</h2>
+			// <h4>Rumex acetosa L.</h4>
+			// <p>Foglie sagittate; decotto di pianta intera come depurativo</p>
+			// <p><a href="#">http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3914</a></p>
+
+			// "id": "au01",
+			// "image": "img/ligustro.jpg",
+			// "name": "acetosa",
+			// "name2": "Rumex acetosa (L.)",
+			// "par": "Foglie sagittate; decotto di pianta intera come depurativo",
+			// "link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3914"
+
+	return html_text;
+}
 
 // returns a string (the HTML content)
 function get_details_by_id(id)
@@ -147,12 +190,32 @@ function get_details_by_id(id)
 	for(var i=0; i<details_array.length; i++)
 	{
 		if(details_array[i].id == id)
-			return details_array[i].content;
+		{
+			// return details_array[i].content;
+
+			console.log("id found in details.json:");
+			console.log(id);
+			
+			return detail_object_to_innerhtml(details_array[i]);
+		}
 	}
+
+	console.log("ERROR: could not find id in details.json:");
+	console.log(id);
 
 	return "";
 }
 
+
+/*
+function toggle_infobox(show)
+{
+	if(show)
+		infobox.style.display = "grid";
+	else
+		infobox.style.display = "none";
+}
+*/
 
 
 /*

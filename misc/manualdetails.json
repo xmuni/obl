@@ -1,0 +1,33 @@
+{
+	"details":
+	[
+		{
+			"id": "au01",
+			"image": "img/ligustro.jpg",
+			"name": "Acetosa",
+			"name2": "Rumex acetosa (L.)",
+			"par": "Foglie sagittate; decotto di pianta intera come depurativo",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3914"
+		},
+		{
+			"id": "au02",
+			"image": "img/ligustro.jpg",
+			"name": "Achillea",
+			"name2": "Achillea millefolium (L.)",
+			"par": "Fusto foglioso con foglie alterne; infuso di sommità fiorite per i disturbi della menopausa",
+			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=50297"
+		},
+		{
+			"id": "au03",
+			"content": "albero 3 descrizione"
+		},
+		{
+			"id": "au04",
+			"content": "albero 4 descrizione"
+		},
+		{
+			"id": "au05",
+			"content": "albero 5 descrizione"
+		}
+	]
+}

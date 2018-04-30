@@ -1,0 +1,22 @@
+<html>
+	
+	<div class="intro">
+		<h2>Categoria: ornamentali</h2>
+		<p>dfshkjdfsdf</p>
+	</div>
+	
+	<div class="flexbox">
+		<div id="au01" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd1</div></div>
+		<div id="au10" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd2</div></div>
+		<div id="au04" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd3</div></div>
+		<div id="au07" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd4</div></div>
+		<div id="au09" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd5</div></div>
+		<div id="au02" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd6</div></div>
+		<div id="au08" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd7</div></div>
+		<div id="au05" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd8</div></div>
+		<div id="au03" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd9</div></div>
+		<div id="au06" class="box"><img src="img/ligustro.jpg"/><div class="caption">asd10</div></div>
+		<div class="box dummy"></div>
+	</div>
+
+</html>

@@ -1,0 +1,49 @@
+<html>
+	<div class="intro">
+		<!-- <p>Introduzione sulla categoria di piante medicinali</p> -->
+		<h2>Piante medicinali: fitoterapiche</h2>
+		<p>(40 piante) Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="flexbox">
+		<div id="ft01" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Acetosa</div></a></div>
+		<div id="ft02" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Achillea</div></a></div>
+		<div id="ft03" class="box open"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Agrifoglio</div></a></div>
+		<div id="ft04" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Alloro</div></a></div>
+		<div id="ft05" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Angelica</div></a></div>
+		<div id="ft06" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Artemisia</div></a></div>
+		<div id="ft07" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Bardana</div></a></div>
+		<div id="ft08" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Biancospino</div></a></div>
+		<div id="ft09" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Borragine</div></a></div>
+		<div id="ft10" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Calendula</div></a></div>
+		<div id="ft11" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Camomilla</div></a></div>
+		<div id="ft12" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Celidonia</div></a></div>
+		<div class="box dummy"></div>
+	</div>
+	<div class="intro">
+		<h2>Piante medicinali: gemmoterapiche</h2>
+		<p>10 piante<br/>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	</div>
+	<div class="flexbox">
+		<div id="ft13" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Acetosa</div></a></div>
+		<div id="ft14" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Achillea</div></a></div>
+		<div id="ft15" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Agrifoglio</div></a></div>
+		<div id="ft16" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Alloro</div></a></div>
+		<div id="ft17" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Angelica</div></a></div>
+		<div id="ft18" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Artemisia</div></a></div>
+		<div id="ft19" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Bardana</div></a></div>
+		<div id="ft20" class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Bardana</div></a></div>
+	</div>
+	<div class="intro">
+		<h2>Piante medicinali: aromaterapiche</h2>
+		<p>10 piante<br/>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	</div>
+	<div class="flexbox">
+		<div class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Pino nero</div></a></div>
+		<div class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Silvestre</div></a></div>
+		<div class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Larice</div></a></div>
+		<div class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Ginepro</div></a></div>
+		<div class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Cipresso comune</div></a></div>
+		<div class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Abete rosso</div></a></div>
+		<div class="box"><a href="#" onclick="return false;"><img src="img/ligustro.jpg"/><div class="caption">Abete bianco</div></a></div>
+	</div>
+</html>

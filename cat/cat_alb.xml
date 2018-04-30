@@ -1,0 +1,22 @@
+<html>
+	
+	<div class="intro">
+		<h2>Categoria: alberi autoctoni</h2>
+		<p>Lorem ipsum</p>
+	</div>
+	
+	<div class="flexbox">
+		<div id="au10" class="box"><img src="img/ligustro.jpg"/><div class="caption">Calendula</div></div>
+		<div id="au01" class="box"><img src="img/ligustro.jpg"/><div class="caption">Acetosa</div></div>
+		<div id="au09" class="box"><img src="img/ligustro.jpg"/><div class="caption">Borragine</div></div>
+		<div id="au04" class="box"><img src="img/ligustro.jpg"/><div class="caption">Alloro</div></div>
+		<div id="au07" class="box"><img src="img/ligustro.jpg"/><div class="caption">Bardana</div></div>
+		<div id="au05" class="box"><img src="img/ligustro.jpg"/><div class="caption">Angelica</div></div>
+		<div id="au03" class="box"><img src="img/ligustro.jpg"/><div class="caption">Agrifoglio</div></div>
+		<div id="au08" class="box"><img src="img/ligustro.jpg"/><div class="caption">Biancospino</div></div>
+		<div id="au02" class="box"><img src="img/ligustro.jpg"/><div class="caption">Achillea</div></div>
+		<div id="au06" class="box"><img src="img/ligustro.jpg"/><div class="caption">Artemisia</div></div>
+		<div class="box dummy"></div>
+	</div>
+
+</html>

@@ -18,18 +18,40 @@ var infobox_lastopened_id = "none";
 
 var details_array = [];
 get_details();
+var gallerycontent = "[default gallerycontent]";
+
+
 
 // console.log(fetchedjson);
 // console.log(details_array[0]);
 // infobox.innerHTML = details_array[0];
 
 
+// load_category("cat/cat_med.xml");
+enable_all_flexboxes();
+
+document.querySelector("#cat_med").addEventListener("click", function(){ sidebar_click(this,"cat/cat_med.xml"); }, false);
+document.querySelector("#cat_alb").addEventListener("click", function(){ sidebar_click(this,"cat/cat_alb.xml"); }, false);
+document.querySelector("#cat_fru").addEventListener("click", function(){ sidebar_click(this,"cat/cat_fru.xml"); }, false);
+document.querySelector("#cat_pra").addEventListener("click", function(){ sidebar_click(this,"cat/cat_pra.xml"); }, false);
+document.querySelector("#cat_bos").addEventListener("click", function(){ sidebar_click(this,"cat/cat_bos.xml"); }, false);
+document.querySelector("#cat_orn").addEventListener("click", function(){ sidebar_click(this,"cat/cat_orn.xml"); }, false);
+
+
+function sidebar_click(this_button, xml_filename)
+{
+	console.log("loading "+xml_filename);
+	load_category(xml_filename);
+	select_sidebar_button(this_button.id);
+	// enable_all_flexboxes();
+
+	setTimeout(function(){enable_all_flexboxes();}, 100);
+}
 
 
 
-
-var boxes = document.querySelectorAll(".flexbox .box");
-var flexbox = document.querySelectorAll(".flexbox")[0].querySelectorAll(".box");
+// var boxes = document.querySelectorAll(".flexbox .box");
+// var flexbox = document.querySelectorAll(".flexbox")[0].querySelectorAll(".box");
 // console.log("flexbox length:");
 // console.log(flexbox.length);
 
@@ -42,17 +64,62 @@ var flexbox = document.querySelectorAll(".flexbox")[0].querySelectorAll(".box");
 
 
 
+/*
+enable_infobox();
+
+// adds click trigger to each box of all flexboxes on this page (inside #gallery)
+function enable_infobox()
+{
+	all_flexboxes = document.querySelectorAll(".flexbox");
+	
+	for(var i=0; i<all_flexboxes.length; i++)
+	{
+		var boxes = all_flexboxes[i].querySelectorAll(".box");
+		console.log(boxes);
+
+		for(var j=0; j<boxes.length; j++)
+		{	
+			boxes[j].addEventListener("click", function(){reveal(this, boxes)}, false);
+		}
+	}
+}
+*/
+
+
+function enable_all_flexboxes()
+{
+	console.log("enabling flexboxes");
+	var all_flexboxes = document.querySelectorAll(".flexbox");
+	for(var i=0; i<all_flexboxes.length; i++)
+		enable_flexbox_infobox(all_flexboxes[i]);
+}
+
+function enable_flexbox_infobox(flexbox)
+{
+	var boxes = flexbox.querySelectorAll(".box");
+
+	for(var i=0; i<boxes.length; i++)
+	{
+		boxes[i].addEventListener("click", function(){reveal(this, boxes)}, false);
+	}
+}
+
+
+/*
 var boxcount = flexbox.length;
 for(var i=0; i<flexbox.length; i++)
 {
-	// console.log("boxes.length");
-	// console.log("asdshdbf,jshdgfbksdjf");
-	
 	flexbox[i].addEventListener("click", function(){reveal(this, flexbox)}, false);
 }
+*/
+
 
 function reveal(box, flexbox)
 {
+	console.log("revealing infobox for this box");
+	// console.log(box);
+	// console.log(flexbox);
+
 	if(infobox.style.display=="grid" && infobox_lastopened_id==box.id)
 	{
 		infobox.style.display = "none"; // hide infobox
@@ -87,7 +154,7 @@ function reveal(box, flexbox)
 	// console.log(last_box_in_row);
 
 	// this.parentNode.insertBefore(infobox, this);
-	add_infobox_at(last_box_in_row);
+	add_infobox_at(flexbox, last_box_in_row);
 
 	infobox_lastopened_id = box.id;
 }
@@ -116,7 +183,7 @@ function count_columns()
 	return columns;
 }
 
-function add_infobox_at(index)
+function add_infobox_at(boxes, index)
 {
 	boxes[0].parentNode.insertBefore(infobox, boxes[index]);
 	// console.log("infobox added");
@@ -149,7 +216,74 @@ function get_details()
 	xhttp.send();
 }
 
+function load_category(xml_filename)
+{
+	get_xml_fixed(xml_filename);
+	// set_gallerycontent(gallerycontent);
+}
 
+
+
+function get_xml(filename)
+{
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function()
+	{
+		if(this.readyState == 4 && this.status == 200)
+		{
+			var response = xhttp.responseText;
+			gallerycontent = response;
+			console.log(response);
+		}
+		else
+			console.log("ERROR: XmlHttpRequest could not get file: "+filename);
+
+	};
+	xhttp.open("GET", filename, true);
+	xhttp.send();
+}
+
+function get_xml_fixed(filename)
+{
+	var xhr = new XMLHttpRequest();
+	XMLHttpRequest.responseType = "document";
+	xhr.open("GET", filename, true);
+
+	xhr.onload = function()
+	{
+		if(this.status==200)
+		{
+			var content = this.responseText;
+			// gallerycontent = content;
+			var gallery = document.querySelector("#gallery");
+			gallery.innerHTML = content;
+			// console.log(content);
+		}
+		else
+			console.log("ERROR: XmlHttpRequest could not get file: "+filename);
+	}
+
+	xhr.send();
+}
+
+function set_gallerycontent(text)
+{
+	var gallery = document.querySelector("#gallery");
+	gallery.innerHTML = text;
+}
+
+function select_sidebar_button(id)
+{
+	var sidebar_buttons = document.querySelectorAll("#sidebar .button");
+	console.log(sidebar_buttons);
+	for(var i=0; i<sidebar_buttons.length; i++)
+	{
+		if(sidebar_buttons[i].id == id)
+			sidebar_buttons[i].classList.add("selected");
+		else
+			sidebar_buttons[i].classList.remove("selected");
+	}
+}
 
 // converts an object from details_array into HTML
 function detail_object_to_innerhtml(detail_object)

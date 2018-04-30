@@ -50,11 +50,6 @@ function sidebar_click(this_button, xml_filename)
 
 
 
-// var boxes = document.querySelectorAll(".flexbox .box");
-// var flexbox = document.querySelectorAll(".flexbox")[0].querySelectorAll(".box");
-// console.log("flexbox length:");
-// console.log(flexbox.length);
-
 
 // var index = 5;
 // add_infobox_at(index);
@@ -155,6 +150,9 @@ function reveal(box, flexbox)
 
 	// this.parentNode.insertBefore(infobox, this);
 	add_infobox_at(flexbox, last_box_in_row);
+
+	//if(row_of_box(id) > row_of_box(infobox_lastopened_id))
+		// scroll down by the infobox's pixel height
 
 	infobox_lastopened_id = box.id;
 }
@@ -341,73 +339,3 @@ function get_details_by_id(id)
 }
 
 
-/*
-function toggle_infobox(show)
-{
-	if(show)
-		infobox.style.display = "grid";
-	else
-		infobox.style.display = "none";
-}
-*/
-
-
-/*
-
-function getxhr(filename)
-{
-	var xhr = new XMLHttpRequest();
-	XMLHttpRequest.responseType = "document";
-	xhr.open("GET", filename, true);
-
-	xhr.onload = function()
-	{
-		if(this.status==200)
-		{
-			var content = this.responseText;
-			infobox.innerHTML = content;
-		}
-		else
-		{
-			console.log("could not get file:");
-			console.log(filename);
-		}
-	}
-
-	xhr.send();
-}
-
-function get_text()
-{
-	var xmlhttp = new XMLHttpRequest();
-	var text = "";
-
-	xmlhttp.open("HEAD", "details.xml", true);
-	xmlhttp.onreadystatechange = function()
-	{
-		text = xmlhttp.readyState;
-	}
-
-	xmlhttp.send(null);
-	return text;
-}
-
-function loadfile()
-{
-	var xhttp = new XMLHttpRequest();
-	var text = "";
-
-	xhttp.onreadystatechange = function()
-	{
-	  	if(this.readyState == 4 && this.status == 200)
-	  		text = this.responseText;
-	};
-
-	// send data to server
-	xhttp.open("GET", "details.xml", true);
-	xhttp.send();
-
-	return text;
-}
-
-*/

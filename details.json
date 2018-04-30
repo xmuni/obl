@@ -2,8 +2,8 @@
 	"details":
 	[
 		{
-			"id": "ft01",
-			"image": "img/ft01.jpg",
+			"id": "﻿ft01",
+			"image": "img/﻿ft01.jpg",
 			"name": "Acetosa",
 			"name2": "Rumex acetosa (L.)",
 			"par": "Foglie sagittate; decotto di pianta intera come depurativo. Foglie in insalata.",
@@ -22,7 +22,7 @@
 			"image": "img/ft03.jpg",
 			"name": "Agrifoglio",
 			"name2": "Ilex aquifolium (L.)",
-			"par": "foglie persistenti, ovate; decotto di foglie come antireumatico. Infuso di foglie ottimo tè energetico. Frutti rossi tossici.",
+			"par": "Foglie persistenti, ovate; decotto di foglie come antireumatico. Infuso di foglie ottimo tè energetico. Frutti rossi tossici.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=2246"
 		},
 		{
@@ -30,7 +30,7 @@
 			"image": "img/ft04.jpg",
 			"name": "Alloro",
 			"name2": "Laurus nobilis (L.)",
-			"par": "foglie persistenti, alterne; infuso di foglie per dispepsie atoniche. Foglie in piatti di pesce e antitarmico. ",
+			"par": "Foglie persistenti, alterne; infuso di foglie per dispepsie atoniche. Foglie in piatti di pesce e antitarmico. ",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3443"
 		},
 		{
@@ -38,7 +38,7 @@
 			"image": "img/ft05.jpg",
 			"name": "Angelica",
 			"name2": "Angelica archangelica (L.)",
-			"par": "foglie 2-3 volte pennate; infuso di radice per stimolare la digestione. Foglie giovani in frutta cotta, pesce e con formaggi.",
+			"par": "Foglie 2-3 volte pennate; infuso di radice per stimolare la digestione. Foglie giovani in frutta cotta, pesce e con formaggi.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=8998"
 		},
 		{
@@ -46,7 +46,7 @@
 			"image": "img/ft06.jpg",
 			"name": "Artemisia",
 			"name2": "Artemisia vulgaris (L.)",
-			"par": "folgie alterne; infuso di sommità fiorite come antispasmodico. Giovani foglie in infuso come tè e per aromatizzare la birra.",
+			"par": "Folgie alterne; infuso di sommità fiorite come antispasmodico. Giovani foglie in infuso come tè e per aromatizzare la birra.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=38475"
 		},
 		{
@@ -54,7 +54,7 @@
 			"image": "img/ft07.jpg",
 			"name": "Bardana",
 			"name2": "Arctium lappa (L.)",
-			"par": "foglie alterne ovali; decotto di radice per la cura del diabete. Gambi delle foglie cotti come il Cardo.",
+			"par": "Foglie alterne ovali; decotto di radice per la cura del diabete. Gambi delle foglie cotti come il cardo.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=15614"
 		},
 		{
@@ -62,7 +62,7 @@
 			"image": "img/ft08.jpg",
 			"name": "Biancospino",
 			"name2": "Crataegus monogyna (Jacq.)",
-			"par": "foglie alterne; infuso di fiori per calmare il nervosismo. Fiori in insalata e per tè profumato.",
+			"par": "Foglie alterne; infuso di fiori per calmare il nervosismo. Fiori in insalata e per tè profumato.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=10885"
 		},
 		{
@@ -70,7 +70,7 @@
 			"image": "img/ft09.jpg",
 			"name": "Borragine",
 			"name2": "Borrago officinalis  (L.)",
-			"par": "folglie alterne pelose; infuso di fiori per sedare la tosse. Foglie cotte per molte ricette e fiori in insalata.",
+			"par": "Folglie alterne pelose; infuso di fiori per sedare la tosse. Foglie cotte per molte ricette e fiori in insalata.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=5798"
 		},
 		{
@@ -78,7 +78,7 @@
 			"image": "img/ft10.jpg",
 			"name": "Calendula",
 			"name2": "Calendula officinalis (L.)",
-			"par": "foglie basali a rosetta; infuso di fiori per favorire le regole mensili. Per pomate dermatologiche. Petali fiori arancioni in insalata e nel riso.",
+			"par": "Foglie basali a rosetta; infuso di fiori per favorire le regole mensili. Per pomate dermatologiche. Petali fiori arancioni in insalata e nel riso.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=48264"
 		},
 		{
@@ -86,7 +86,7 @@
 			"image": "img/ft11.jpg",
 			"name": "Camomilla",
 			"name2": "Matricaria chamomilla (L.)",
-			"par": "foglie pennate; tintura di capolini fioriti per difficoltà digestive. Infuso come blando calmante.",
+			"par": "Foglie pennate; tintura di capolini fioriti per difficoltà digestive. Infuso come blando calmante.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=9456"
 		},
 		{
@@ -94,7 +94,7 @@
 			"image": "img/ft12.jpg",
 			"name": "Celidonia",
 			"name2": "Chelidonium majus (L.)",
-			"par": "foglie pennatosette; succo giallo allo stato naturale per calli e verruche. Tossico se ingerito.",
+			"par": "Foglie pennatosette; succo giallo allo stato naturale per calli e verruche. Tossico se ingerito.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=3714"
 		},
 		{
@@ -102,7 +102,7 @@
 			"image": "img/ft13.jpg",
 			"name": "Cicoria selvatica",
 			"name2": "Cichorium intybus (L.)",
-			"par": "foglie superiori lanceolate; decotto di radice come epatoprotettivo. Foglie giovani cotte e fiori azzurri in insalata.",
+			"par": "Foglie superiori lanceolate; decotto di radice come epatoprotettivo. Foglie giovani cotte e fiori azzurri in insalata.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=7098"
 		},
 		{
@@ -110,7 +110,7 @@
 			"image": "img/ft14.jpg",
 			"name": "Edera terrestre",
 			"name2": "Glechoma ederacea (L.)",
-			"par": "foglie lungamente picciolate; infuso di sommità fiorite come bechico. Petali fiori blu in insalata",
+			"par": "Foglie lungamente picciolate; infuso di sommità fiorite come bechico. Petali fiori blu in insalata",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=5732"
 		},
 		{
@@ -118,7 +118,7 @@
 			"image": "img/ft15.jpg",
 			"name": "Equiseto",
 			"name2": "Equisetum arvense (L.)",
-			"par": "fusti fertili di diametro max 5 mm; decotto di pianta intera come mineralizzante",
+			"par": "Fusti fertili di diametro max 5 mm; decotto di pianta intera come mineralizzante",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=15124"
 		},
 		{
@@ -126,7 +126,7 @@
 			"image": "img/ft16.jpg",
 			"name": "Erba limoncina",
 			"name2": "Lippia citriodora (Humb.)",
-			"par": "foglie intere lanceolate; infuso di foglie e fiori come stomachico. Foglie  e fiori per grappa digestiva.",
+			"par": "Foglie intere lanceolate; infuso di foglie e fiori come stomachico. Foglie  e fiori per grappa digestiva.",
 			"link": "https://it.wikipedia.org/wiki/Aloysia_citriodora"
 		},
 		{
@@ -134,7 +134,7 @@
 			"image": "img/ft17.jpg",
 			"name": "Farfara",
 			"name2": "Tussilago farfara (L.)",
-			"par": "foglie cordato-poligonali; infuso di fiori per tracheite. Foglie usabili per paste fresche.",
+			"par": "Foglie cordato-poligonali; infuso di fiori per tracheite. Foglie usabili per paste fresche.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=675"
 		},
 		{
@@ -142,7 +142,7 @@
 			"image": "img/ft18.jpg",
 			"name": "Felce maschio",
 			"name2": "Dryopteris filix-mas (L.)",
-			"par": "foglie suoeriormente pennate; polvere di rizoma come antielmintico. Foglie amarognole per il tè e il risotto. ",
+			"par": "Foglie suoeriormente pennate; polvere di rizoma come antielmintico. Foglie amarognole per il tè e il risotto. ",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=20543"
 		},
 		{
@@ -150,7 +150,7 @@
 			"image": "img/ft19.jpg",
 			"name": "Fragola di bosco",
 			"name2": "Fragaria vesca (L.)",
-			"par": "foglie composte da tre foglioline; frutti con un po' di limone negli attacchi di gotta. Giovani foglie in insalata.",
+			"par": "Foglie composte da tre foglioline; frutti con un po' di limone negli attacchi di gotta. Giovani foglie in insalata.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=2625"
 		},
 		{
@@ -158,8 +158,328 @@
 			"image": "img/ft20.jpg",
 			"name": "Gramigna",
 			"name2": "Cynodon dactylon (L.)",
-			"par": "foglie a lembo lineare-lanceolato; decotto di rizoma come diuretico e depurativo. Togliere involucro esterno amaro del rizoma.",
+			"par": "Foglie a lembo lineare-lanceolato; decotto di rizoma come diuretico e depurativo. Togliere involucro esterno amaro del rizoma.",
 			"link": "http://www.floraitaliae.actaplantarum.org/viewtopic.php?t=15055"
+		},
+		{
+			"id": "ft21",
+			"image": "img/ft21.jpg",
+			"name": "Iperico",
+			"name2": "Hypericum perforatum L. - hypericaceae",
+			"par": "Foglie opposte, sessili, oblunghe e lineari-oblunghe (le superiori); infuso di sommità fiorite per calmare l’irritazione dei bronchi",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft22",
+			"image": "img/ft22.jpg",
+			"name": "Lampone",
+			"name2": "Rubus idaeus L. - rosaceae",
+			"par": "Foglie alterne, a 3-7 foglioline bianche-tomentose sotto, dentate; infuso di foglie come antidiarroico; ",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft23",
+			"image": "img/ft23.jpg",
+			"name": "Maggiorana",
+			"name2": "Origanum majorana L. - labiatae",
+			"par": "Foglie picciolate, oblunghe, intere, grigio-vellutate sopra e sotto; decotto di sommità fiorite per stimolare l'appetito",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft24",
+			"image": "img/ft24.jpg",
+			"name": "Malva",
+			"name2": "Malva silvestris L. - malvaceae",
+			"par": "Foglie alterne, le superiori a lobi arrotondati, poco profondi; infuso di foglie e fiori come lassativo",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft25",
+			"image": "img/ft25.jpg",
+			"name": "Meliloto giallo",
+			"name2": "Melilotus officinalis L. - leguminosae",
+			"par": "Foglie alterne, picciolate, composte di tre foglioline obovate; infuso di sommità fiorite per infezioni urinarie",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft26",
+			"image": "img/ft26.jpg",
+			"name": "Melissa",
+			"name2": "Melissa officinalis L. - labiatae",
+			"par": "Foglie opposte, ovate, dentato-crenate, verde chiaro; infuso di sommità fiorite per la cura dei reumatismi",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft27",
+			"image": "img/ft27.jpg",
+			"name": "Ortica",
+			"name2": "Urtica dioica L. - urticaceae",
+			"par": "Foglie opposte, ovato-lanceolate, con picciolo e denti triangolari; infuso di foglie per anemia e astenia",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft28",
+			"image": "img/ft28.jpg",
+			"name": "Ortica bianca",
+			"name2": "Lamium album L. - labiatae",
+			"par": "Foglie ovali, le superiori acuminate e fortemente dentate; decotto di pianta intera per rendere lucidi i capelli",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft29",
+			"image": "img/ft29.jpg",
+			"name": "Papavero",
+			"name2": "Papaver rhoeas L. - papaveraceae",
+			"par": "Foglie +/- pennatifide, a lobi dentati o incisi con l'ultimo più grande; infuso di fiori contro l'insonnia",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft30",
+			"image": "img/ft30.jpg",
+			"name": "Parietaria",
+			"name2": "Parietaria officinalis L. - urticaceae",
+			"par": "Foglie alterne, brevemente picciolate, ovali lanceolate, acuminate ; infuso di pianta intera nella cistite",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft31",
+			"image": "img/ft31.jpg",
+			"name": "Piantaggine",
+			"name2": "Plantago major L. - plantaginaceae",
+			"par": "Foglie lanceolate disposte a rosetta, con nervature marcate; infuso di foglie per le infiammazioni della pelle",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft32",
+			"image": "img/ft32.jpg",
+			"name": "Pungitopo",
+			"name2": "Ruscus aculeatus L. - liliaceae",
+			"par": "Rami simili a foglie ovato-lanceolate, pungenti (cladodi); decotto di rizoma come vasocostrittore",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft33",
+			"image": "img/ft33.jpg",
+			"name": "Rosa canina",
+			"name2": "Rosa canina L. - rosaceae",
+			"par": "Foglie alterne, imparipennate, glabre e senza glandole; decotto di frutti come depurativo e ricostituente",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft34",
+			"image": "img/ft34.jpg",
+			"name": "Rovo",
+			"name2": "Rubus ulmifolius schott.- Rosaceae",
+			"par": "Foglie a 3-5 foglioline, verdi cupe sopra, bianco-tomentose sotto; decotto di foglie come astringente",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft35",
+			"image": "img/ft35.jpg",
+			"name": "Ruta",
+			"name2": "Ruta graveolens L. - rutaceae",
+			"par": "Foglie 2-3 partite, divise in lacinie obovate od oblunghe ; emmenagoghe, spasmolitiche - uso riservato al medico",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft36",
+			"image": "img/ft36.jpg",
+			"name": "Sambuco",
+			"name2": "Sambucus nigra L. - caprifoliaceae",
+			"par": "Foglie opposte, a 5-7 foglioline ovate, dentato-seghettate; decotto di foglie per i disturbi dell'arteriosclerosi",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft37",
+			"image": "img/ft37.jpg",
+			"name": "Santoreggia",
+			"name2": "Satureja hortensis L. - labiatae",
+			"par": "Foglie opposte, molli, verdi-cenerine, lanceolate-lineari; infuso di sommità fiorite per stimolare l'attività gastrica",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft38",
+			"image": "img/ft38.jpg",
+			"name": "Tarassaco",
+			"name2": "Taraxacum officinale – weber compositae",
+			"par": "Foglie disposte a rosetta, con nervatura mediana pronunciata; decotto di radice per evitare l'eccesso di colesterolo",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft39",
+			"image": "img/ft39.jpg",
+			"name": "Verbasco",
+			"name2": "Verbascum thapsus L. - scrophulariaceae",
+			"par": "Foglie medie e superiori decorrenti nell'internodo, tomentose; decotto di fiori per la raucedine (uso esterno)",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "ft40",
+			"image": "img/ft40.jpg",
+			"name": "Verbena",
+			"name2": "Verbena officinalis L. - verbenaceae",
+			"par": "Foglie picciolate, intere, dentate o pennatifide ; infuso di pianta intera per alcune emicranie",
+			"link": "actaplantarum.org"
+		},
+		{
+			"id": "gt01",
+			"image": "img/gt01.jpg",
+			"name": "Acero campestre",
+			"name2": "Acer campestre L. - aceraceae",
+			"par": "Foglie opposte, palmate a 5 lobi +/- ottusi, poco profondi, picciolate; contro la tendenza all'arteriosclerosi",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt02",
+			"image": "img/gt02.jpg",
+			"name": "Betulla",
+			"name2": "Betula pendula roth. - betulaceae",
+			"par": "Foglie spiralate, semplici, triangolari-romboidali, doppiamente dentate; nel reumatismo articolare",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt03",
+			"image": "img/gt03.jpg",
+			"name": "Castagno d'india",
+			"name2": "Aesculus hippocastanum L. - hippocastanaceae",
+			"par": "Foglie palmato-composte a 7 foglioline, oblunghe, dentate; nelle congestioni venose alle gambe",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt04",
+			"image": "img/gt04.jpg",
+			"name": "Farnia",
+			"name2": "Quercus pedunculata ehrh. - fagaceae",
+			"par": "Foglie +/- sessili, glabre, opache, con orecchiette a base arrotondata; equilibra la pressione arteriosa ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt05",
+			"image": "img/gt05.jpg",
+			"name": "Frassino maggiore",
+			"name2": "Fraxinus excelsior L. - oleaceae",
+			"par": "Foglie a 4-7 paia di foglioline lanceolate, acuminate, dentate; nella iperuricemia ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt06",
+			"image": "img/gt06.jpg",
+			"name": "Nocciolo",
+			"name2": "Corylus avellana L. - betulaceae",
+			"par": "Foglie alterne, oblungo-obovate, acute, cordate alla base, dentate; nella bronchite",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt07",
+			"image": "img/gt07.jpg",
+			"name": "Ontano nero",
+			"name2": "Alnus glutinosa gaertner",
+			"par": "Foglie alterne, ovali, cuneate alla base, irregolarmente dentate; nella cefalea vaso-motoria",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt08",
+			"image": "img/gt08.jpg",
+			"name": "Ribes nero",
+			"name2": "Ribes nigrum L. - saxifragaceae",
+			"par": "Foglie palmate, a 3-5 lobi +/- acuti, irregolarmente dentati; nella ipotensione arteriosa",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt09",
+			"image": "img/gt09.jpg",
+			"name": "Sanguinella",
+			"name2": "Cornus sanguinea L. - cornaceae",
+			"par": "Foglie largamente ovali +/- acuminate, con 3-5 paia di nervature; nell'infarto del miocardio",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "gt10",
+			"image": "img/gt10.jpg",
+			"name": "Tamerice",
+			"name2": "Tamarix gallica L. - tamaricaceae",
+			"par": "Foglie alterne, squamiformi +/- acute, glabre; nelle anemie ipocromiche",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at01",
+			"image": "img/at01.jpg",
+			"name": "Aglio",
+			"name2": "Allium sativum L. - liliaceae",
+			"par": "Foglie piane o quasi (non cilindriche), liscie, larghe +/- 10 mm; nella ipertensione arteriosa",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at02",
+			"image": "img/at02.jpg",
+			"name": "Basilico",
+			"name2": "Ocimum basilicum L. - labiatae",
+			"par": "Foglie, da lanceolate a ovali, intere, con picciolo, verde chiaro; nell'affaticamento nervoso ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at03",
+			"image": "img/at03.jpg",
+			"name": "Ginepro",
+			"name2": "Juniperus communis L. - cupressaceae",
+			"par": "Foglie lineari, rigide, pungenti, a sezione +/- triangolare; nella litiasi urinaria",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at04",
+			"image": "img/at04.jpg",
+			"name": "Issopo",
+			"name2": "Hyssopus officinalis L. - labiatae",
+			"par": "Foglie lanceolate-lineari, +/- acute, glandolose; nelle bronchite croniche ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at05",
+			"image": "img/at05.jpg",
+			"name": "Lavanda",
+			"name2": "Lavandula spica L. - labiatae",
+			"par": "Foglie lineari, sessili, le fiorifere (brattee) ovato-romboidali, rossastre; nelle affezioni delle vie respiratorie ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at06",
+			"image": "img/at06.jpg",
+			"name": "Menta piperita",
+			"name2": "Mentha piperita L. - labiatae",
+			"par": "Foglie opposte, ovato-oblunghe, seghettate con picciolo distinto; nelle atonie digestive ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at07",
+			"image": "img/at07.jpg",
+			"name": "Pino silvestre",
+			"name2": "Pinus sylvestris L. - pinaceae",
+			"par": "Foglie aghiformi, pungenti, glauche, lunghe circa come i coni; nelle affezioni urinarie ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at08",
+			"image": "img/at08.jpg",
+			"name": "Rosmarino",
+			"name2": "Rosmarinus officinalis L. - labiatae",
+			"par": "Foglie lineari a margini rivoltati, bianco-tomentose disotto; in alcune epatopatie ",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at09",
+			"image": "img/at09.jpg",
+			"name": "Salvia",
+			"name2": "Salvia officinalis L. - labiatae",
+			"par": "Foglie oblunghe-lanceolate, finemente increspate, verde-grigio; nella sudorazione eccessiva",
+			"link": "http://actaplantarum.org"
+		},
+		{
+			"id": "at10",
+			"image": "img/at10.jpg",
+			"name": "Timo",
+			"name2": "Thymus vulgaris L. - labiatae",
+			"par": "Foglie lineari a margini rivoltati, +/- tomentose disotto; nelle infezioni intestinali",
+			"link": "http://actaplantarum.org"
 		}
 	]
 }
